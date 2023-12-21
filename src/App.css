@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App-profile {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.App-body {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: 'Raleway';
+  font-size: large;
+}
+
+.button {
+  border-color: lightblue;  
+  font-family: 'Raleway';
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: medium;
+  width: 100%;
+}
