@@ -9,22 +9,31 @@
 }
 
 .App-body {
-  background-color: white;
+  background-image: url("./assets/background_flowers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: black;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: large;
 }
 
+.contacts {
+  display: flex;
+}
+
 .button {
-  border-color: lightblue;  
-  font-family: 'Raleway';
-  background-color: white;
+  border-color: rgb(125, 168, 197);
+  background-color: rgb(125, 168, 197);
   border-radius: 5px;
   margin: 10px;
-  font-size: medium;
+  align-items: center;
+  font-size: xx-large;
+  color: white;
+  padding-top: 5px;
 }
