@@ -1,5 +1,5 @@
-import profile from './assets/profile.jpg';
-import './App.css';
+import profile from "./assets/profile.jpg";
+import "./App.css";
 import { FaEtsy, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'></link>
         <img src={profile} className="App-profile" alt="profile" />
         
-        <div className='title'>
+        <div className="title">
           <h3> Mari's Crystal Jewellery </h3>
           <hr></hr>
-          <p> Find me on:</p>
+          <p> Find me on: </p>
         </div>
 
         <div className="contacts">
