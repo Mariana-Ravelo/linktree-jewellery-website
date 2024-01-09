@@ -16,7 +16,7 @@ function App() {
         </div>
 
         <div className="contacts">
-          <a href="https://maricrystaljewellery.etsy.com">
+          <a href="etsy://user?username=maricrystaljewellery">
             <button className="button btn-etsy"><FaEtsy/></button>
           </a>
 
