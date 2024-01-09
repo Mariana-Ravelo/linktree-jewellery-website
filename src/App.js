@@ -20,7 +20,7 @@ function App() {
             <button className="button btn-etsy"><FaEtsy/></button>
           </a>
 
-          <a href="https://www.instagram.com/maris_crystal_jewellery/">
+          <a href="instagram://user?username=maris_crystal_jewellery">
             <button className="button btn-instagram"><FaInstagram/></button>
           </a>
 
